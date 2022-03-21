@@ -1,0 +1,70 @@
+body {
+  font-family: "Helvetica", monospace;
+  min-height: 400px;
+  background-color: #000000;
+  background-image: url("https://images.pexels.com/photos/5952651/pexels-photo-5952651.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940");
+  background-size: 180vh;
+  background-position: center bottom;
+  background-repeat: no-repeat;
+}
+
+.container {
+  text-align: center;
+  padding: 20px;
+  height: 100vh;
+  background: rgba(255, 255, 255, 0.1);
+  backdrop-filter: blur(2px);
+  -webkit-bacdrop-filter: blur(4px);
+  border-radius: 10px;
+}
+
+.page-title {
+  font-size: 35px;
+  color: #ffffff;
+  margin: 0 0 5px;
+}
+
+.page-subtitle {
+  font-size: 20px;
+  color: #fffff4;
+  margin-top: 5px;
+}
+
+Label {
+  font-size: 20px;
+  font-family: "Helvetica", monospace;
+  color: #fffff;
+}
+
+.page-logo {
+  width: 200px;
+}
+
+.alura-logo {
+  width: 40px;
+  position: absolute;
+  top: 10px;
+  right: 10px;
+}
+
+input {
+  margin: 12px;
+  padding: 6px;
+  border-radius: 5px;
+}
+
+label {
+  color: white;
+}
+
+button {
+  margin-top: 12px;
+  padding: 4px 8px;
+  border-radius: 10px;
+  background: #ffffff;
+}
+
+h2 {
+  color: #ffffff;
+  font-size: 30px;
+}
